@@ -2,9 +2,9 @@
 this programme has been code with python and he allow to send a grouped mail
 
 you just have to compile it with python3 and you should have a small window
-in this window you can see the email of the people who you want send and modifie this
-after the modification click on the button save and the modifiaction will be save in a file
-***before you wrote your contact, make sure to clear your window***
+in this window you can see 2 button, the first button is "Edit Contact",
+it allow you to open a new window where you can see and add a contact in
+your repertory
 
-when you click on the button write message you, you can write a message and if you want send it you click on send.
-***juste before to right your message, make sure to clear your window before.***
+the seconde button is "write message", it allow you to open a window
+where you can write a message and send it.
