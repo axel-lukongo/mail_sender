@@ -8,7 +8,7 @@ import smtplib
 #here it for my Contact window
 def contact():
 	window = Tk()
-	window.title('menu')
+	window.title('Edit Contact')
 	window.geometry("500x700")
  
 	def open_txt():
@@ -39,7 +39,7 @@ def contact():
 def mail_sender():
 
 	window = Tk()
-	window.title('menu')
+	window.title('write your message')
 	window.geometry("500x600")
 
 	def send_mail():
@@ -54,12 +54,10 @@ def mail_sender():
 
 		server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 		server.login(sender_mail, password)
-
 		while rec_mail: 
 			print(rec_mail)
 			server.sendmail(sender_mail, rec_mail, message)
 			rec_mail = data.readline()
-
 		server.quit()
 		print("mail has been send")
 
@@ -93,7 +91,7 @@ window = Tk()
 window.title('menu')
 window.geometry("500x200")
 
-my_button = Button(window, text="Contact", command=contact)
+my_button = Button(window, text="Edit Contact", command=contact)
 my_button.pack(pady=20)
 
 save_button = Button(window, text="Write message", fg='blue' , command=mail_sender)
