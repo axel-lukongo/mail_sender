@@ -44,8 +44,8 @@ def mail_sender():
 
 	def send_mail():
 		save_message()
-		sender_mail = "lukongo.axel03@gmail.com"
-		password = "arqzueduxqrhbadv"
+		sender_mail = "legozbishow@gmail.com"
+		password = "ikfdodwyyvdelgwg"
 		text_file = open("message.txt", 'r')
 		stuff = text_file.read()
 		message = stuff
