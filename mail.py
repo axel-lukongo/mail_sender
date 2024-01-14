@@ -83,7 +83,7 @@ def mail_sender():
 	window.mainloop()
 
 
-
+print("short test")
 
 #here i creat 2 button: 1 button for open the contact windows
 #and another button for open a window for write a message
